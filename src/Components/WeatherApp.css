@@ -1,0 +1,76 @@
+.loading {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .error {
+    text-align: center;
+    font-size: 24px;
+    color: red;
+    margin-top: 20px;
+  }
+  
+  .try-again {
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .try-again:hover {
+    background-color: darkred;
+  }
+.weather-container {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: crimson;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.weather-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.weather-container input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid crimson;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+}
+
+.weather-container button {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.weather-container hr {
+    margin: 20px 0;
+    border: 1px solid crimson;
+}
+
+.weather-container table {
+    width: 100%;
+}
+
+.weather-container table td {
+    padding: 8px 0;
+    font-size: 16px;
+}
